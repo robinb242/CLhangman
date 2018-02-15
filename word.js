@@ -2,9 +2,12 @@
 
 // import the Letter constructor function 
 var Letter = require('./letter.js');
-
+/*Contains a constructor, Word that depends on the Letter constructor. This is used to create 
+an object representing the current word the user is attempting to guess. 
+That means the constructor should define:
+*/
 // export Word Constructor function
-module.exports= function Word(word){
+module.exports = function Word(word){
 
 	// array of letter objects
 	var letters = [];
@@ -45,10 +48,8 @@ module.exports= function Word(word){
 		console.log('                                 '+str+'       Guesses remaining:'+ this.guessesRemaining);
 	}
 }
-/*Contains a constructor, Word that depends on the Letter constructor. This is used to create 
-an object representing the current word the user is attempting to guess. 
-That means the constructor should define:
 
+/*
 
 An array of new Letter objects representing the letters of the underlying word
 
