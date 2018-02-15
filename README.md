@@ -1,8 +1,7 @@
 # CLhangman
 Command Line Hangman game
 ### Overview
-The his game is a traditional hangman game made simpler by narrowing the word choices to car
-manufactures.
+This game is a traditional hangman game made simpler by narrowing the word choices to car manufactures.
 
 
 ### Technologies Used
@@ -12,14 +11,13 @@ manufactures.
 * Contructor Fucntions
 * Promises / Asynchronous programming
 
-### Challenges encountered
-* How solve the problem using Object oriented programming?
-* How handle user inputs from console using inquirer?
+### Like to have
+* Prompt for starting a new game or not, though ctrl-c works to escape the game.
 
-### Solutions found
-* Designing letter and Word as objects using contructor functions and including the methods that operate on that data in the objects helped
-solve the problem.
-* Handling promises and using recursive function calls helped handle the user input.
+### Notes
+* Since the program requires the inquire NPM, you'll have to run
+npm install on the directory you clone this repository to.
+
 
 ### How it works
 
@@ -33,6 +31,21 @@ solve the problem.
 
 5. If you run out of guesses you loose. If you complete the word you win.
 
+History
+Version 0.1 (2018-02-15) - initial upload of functioning files.
 
+Credits
+Lead Developer - Chris Kibble (@ckib16) Mentor - Chris Beck (@christopherbeck)
+
+License - General Open License
+The MIT License (MIT)
+
+Copyright (c) 2015 Chris Kibble
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
